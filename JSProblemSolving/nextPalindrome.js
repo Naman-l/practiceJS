@@ -46,5 +46,5 @@ function nextPalindromicNumber(num) {
 }
 
 // Example usage
-const number = 123;
+const number = "222";
 console.log("Next palindromic number:", nextPalindromicNumber(number));
