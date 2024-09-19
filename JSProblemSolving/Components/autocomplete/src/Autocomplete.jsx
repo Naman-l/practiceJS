@@ -31,15 +31,6 @@ function Autocomplete() {
   }),[data]
 
 
-  // (async()=>{
-  //   const dictionary = await getWords();
-  //   const words = dictionary.words;
-  //   for (let i = 0; i < words.length; i++) {
-  //       const word = words[i];
-  //       myTrie.insert(word)
-  //   }
-  // })();
-
   const onChange = (e) => {
     const value = e.target.value;
     setPrefix(value);
