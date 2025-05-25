@@ -53,7 +53,7 @@ function merge(arrays) {
     return result;
 }
 
-merge(
+const x =merge(
     [
       [1,1,1,100,1000,10000],
       [1,2,2,2,200,200,1000],
@@ -61,4 +61,6 @@ merge(
       [2,3,3]
     ]
   )
+
+console.log(x.toString())
 

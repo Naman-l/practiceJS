@@ -1,0 +1,74 @@
+-List of uber questions
+    - 2 coding problems — Easy to medium-level algorithmic challenges involving arrays and graphs.
+    - 8 multiple-choice questions — Covering JavaScript quirks, web performance basics, HTML semantics, and browser behavior.
+    - Performance optimizations I implemented (like lazy loading, memoization, and tree-shaking),
+    - The real-world challenges I faced during development.
+
+    -fully functional Grid Light Box
+    -Implement a memoization wrapper for an async function.
+        - How would you handle JSON as a parameter in memoization?
+        - What if two JSON objects have the same keys but in different order?
+        - If four parallel API calls are made, would your memoized function allow one call or four?
+    -Cached api call with expiry time
+    -Implement mapLimit async function
+    -Detect overlapping circles
+    -ClearAllTimeout
+    -JSON to HTML
+    -Polyfills
+    -Search with autocomplete
+
+
+-OA round expected questions
+    coding problems :
+        - 1. Given an array of integers, find the first missing positive integer in linear time and constant space.
+        - 2.you are given a list of intervals
+            - [1, 3], [4, 7]
+            - each interval means cars parked in it.
+            - For example [1, 3] means cars parked from 1 to 2, and 2 to 3 like this..
+            - now when a new interval [6, 8] comes, then 6,7 is already occupied by interval 4, 7 so it has space left only in 7,8 which is a single slot..
+            - so for every interval you have to say how many slots are available for it.. at first tell me did you understand the question and then solve it optimally
+            - the answer is [2, 3, 1]
+
+            - 2 for interval [1, 3] which includes 1 to 2 and 2 to 3
+            - 3 for interva [4, 7] which includes 4 to 5, 5 to 6 and 6 to 7
+            - 1 for interval 6 to 8 because although there is 6 to 7 and 7 to 8, but then 6 to 7 is already occupied sp only 7 to 8 is left. so answer is 1 for it
+
+            - For interval [1, 3], it calculates 2 available slots (covering [1, 2] and [2, 3]).
+            - For interval [4, 7], it also calculates 2 available slots (covering [4, 5], [5, 6], and [6, 7]). This seems to be an error since it should be 3 slots.
+            - For interval [6, 8], it correctly identifies 1 available slot (covering [7, 8]), as [6, 7] is already occupied by [4, 7].
+        -3. Finding the next larger palindromic number
+        -4 . Run dependent async tasks in proper sequence
+            - The second question asked in Uber interviews for the problem-solving round is as follows:
+
+            - Problem Statement
+            - Consider we have multiple async tasks A, B, C, D and E ( not promises). A, B and C are independent tasks while D depends on A and B to perform its task while E depends on D and C to perform its task. Write a task function/class to solve this problem.
+        -5. https://leetcode.com/problems/number-of-enclaves/description/?uclick_id=5cc77b85-51c2-4d1b-ad39-9b02d3c9da9c
+        -6. https://leetcode.com/discuss/post/6767457/uber-technical-interview-experience-l4-b-sok4/
+        -7. https://leetcode.com/discuss/post/6748977/uber-oa-question-no-idea-how-to-solve-by-ai5g/
+        -8. Determine if the sum of two integers is equal to the given value
+        -9. Merge two sorted linked lists
+        -10.Copy linked list with arbitrary pointer
+        -11 . Level order traversal of a binary tree
+        12. Given a dictionary of words and an input string tell whether the input string can be completely segmented into dictionary words.
+        -13. Given a string, find the length of the longest substring which has no repeating characters.
+        -14. Given a set of ‘N’ elements, find the Kth permutation.
+        -15 . Find all subsets of a given set of integers
+        -16. Print all braces combinations for a given value 'N' so that they are balanced.
+        -17. Clone a directed graph
+        -18. Given an array of points in the a 2D plane, find ‘K’ closest points to the origin.
+        -19. Given an unsorted array of numbers, find the top ‘K’ frequently occurring numbers in it.
+        -20. find the longest substring that appears in a given list parts in a set of words. You'll return the list of words, with the substrings enclosed in square brackets. If there is a tie for the longest substring, you'll mark the one that appears earliest in the input string.
+        -21. Given a list of words, find the top ‘K’ frequently occurring words.
+    
+
+
+
+
+
+
+
+
+
+
+
+

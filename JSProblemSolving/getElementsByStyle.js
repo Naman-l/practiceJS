@@ -15,3 +15,4 @@ function getElementsByStyle(
     }
     return elementList;
   }
+
